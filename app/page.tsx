@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "@/app/_components/Header";
 import SearchInput from "@/app/_components/SearchInput";
+import CategoryList from "@/app/_components/CategoryList";
 
 const Home = () => {
     return (
@@ -12,9 +13,10 @@ const Home = () => {
                 <SearchInput/>
 
             </div>
+            <div className="px-5">
+                <CategoryList/>
 
-
-
+            </div>
         </>
     );
 };

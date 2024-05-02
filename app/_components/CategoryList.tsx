@@ -1,5 +1,4 @@
 import React from 'react';
-import {Category} from "@prisma/client";
 import {db} from "@/app/_lib/prisma";
 import CategoryItem from "@/app/_components/CategoryItem";
 const CategoryList = async () => {
